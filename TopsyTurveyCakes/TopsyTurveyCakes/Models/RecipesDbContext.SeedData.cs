@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace TopsyTurveyCakes.Models
+namespace TopsyTurvyCakes.Models
 {
     public static class RecipesDbContextSeedData
     {
@@ -118,3 +118,4 @@ namespace TopsyTurveyCakes.Models
         }
     }
 }
+

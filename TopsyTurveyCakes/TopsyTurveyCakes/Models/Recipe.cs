@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using static System.Environment;
 
-namespace TopsyTurveyCakes.Models
+namespace TopsyTurvyCakes.Models
 {
     public class Recipe
     {
@@ -28,7 +28,7 @@ namespace TopsyTurveyCakes.Models
 
         public string ImageContentType { get; set; }
 
-        public string GetInlineImageSrc()
+        public string GetInlineImageSrc ()
         {
             if (Image == null || ImageContentType == null)
                 return null;

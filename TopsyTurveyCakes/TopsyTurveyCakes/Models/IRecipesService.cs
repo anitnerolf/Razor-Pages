@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Threading.Tasks;
 
-namespace TopsyTurveyCakes.Models
+namespace TopsyTurvyCakes.Models
 {
     public interface IRecipesService
     {

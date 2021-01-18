@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace TopsyTurveyCakes.Models
+namespace TopsyTurvyCakes.Models
 {
     public class RecipesDbContext : DbContext
     {

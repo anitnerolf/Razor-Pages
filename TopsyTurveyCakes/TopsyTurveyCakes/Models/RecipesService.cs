@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace TopsyTurveyCakes.Models
+namespace TopsyTurvyCakes.Models
 {
     public class RecipesService : IRecipesService
     {
@@ -11,6 +11,7 @@ namespace TopsyTurveyCakes.Models
         public RecipesService()
         {
             var options = new DbContextOptionsBuilder<RecipesDbContext>()
+                .UseInMemoryDatabase("TopsyTurvyCakes")
                 .Options;
 
             _context = new RecipesDbContext(options);
